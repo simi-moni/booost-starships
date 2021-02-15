@@ -4,8 +4,6 @@ export default class StarWarsUniverse {
         this.starships = [];
     }
     async init() {
-        const count = await this.getStarshipCount();
-        console.log(count);
         this._createStarships();
     }
 
