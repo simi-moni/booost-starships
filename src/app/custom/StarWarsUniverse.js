@@ -4,7 +4,7 @@ export default class StarWarsUniverse {
         this.starships = [];
     }
     async init() {
-        this._createStarships();
+        await this._createStarships();
     }
 
     async getStarshipCount() {
